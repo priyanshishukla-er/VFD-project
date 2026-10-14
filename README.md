@@ -1,24 +1,24 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>discipline | <b>Information technology
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Virtual Lab
+<b> Experiment|     <b> Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+my experiment is Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
 
 <b>Name of Developer | <b> Fill the name of experiment owner here 
-:--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+:priyanshi|:Priyanshi|
+<b> Rajkiya Engineering College Banda <b>  
+<b> Shuklapriyanshi307@gmail.com     <b>  
+<b> Information Technology <b> 
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
+1 | Priyanshi| student | Information Technology | Rajkiya Engineering College Banda | shuklapriyanshi307@gmail.com
 2 | . | . | . | . | .
