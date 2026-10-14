@@ -10,11 +10,11 @@
 
 my experiment is Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
-:priyanshi|:Priyanshi|
-<b> Rajkiya Engineering College Banda <b>  
-<b> Shuklapriyanshi307@gmail.com     <b>  
-<b> Information Technology <b> 
+<b>Name of Developer | <b> Priyanshi Shukla 
+:--|:--|
+<b> College Name | Rajkiya Engineering College Banda| <b>  
+<b> Email Id |Shuklapriyanshi307@gmail.com |    <b>  
+<b> Branch |Information Technology |<b> 
 
 ### Contributors List
 
