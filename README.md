@@ -3,7 +3,7 @@
 
 <b>discipline | <b>Information Technology
 :--|:--|
-<b> Lab | <b> Virtual Lab
+<b> Lab | <b> VR Lab
 <b> Experiment|     <b> Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
 
 ### About the Experiment 
