@@ -3,7 +3,6 @@
 
 <b>discipline | <b>Information Technology
 :--|:--|
-<b> this is new branch
 <b> Lab | <b> VR Lab
 <b> Experiment|     <b> Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
 
@@ -22,4 +21,4 @@ my experiment is Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Pan
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Priyanshi| student | Information Technology | Rajkiya Engineering College Banda | shuklapriyanshi307@gmail.com
-2 | . | . | . | . | .
+2 | Dhananjay | . | . | . | .
