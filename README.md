@@ -1,7 +1,7 @@
 ## Introduction
 
 
-<b>discipline | <b>Information technology
+<b>discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Virtual Lab
 <b> Experiment|     <b> Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Panel Wirineterization
