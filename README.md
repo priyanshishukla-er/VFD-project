@@ -12,7 +12,7 @@ my experiment is Troubleshooting Indrustrial VFD (Variable Frequency Drive ) Pan
 
 <b>Name of Developer | <b> Priyanshi Shukla 
 :--|:--|
-<b> College Name | Rajkiya Engineering College Banda| <b>  
+<b> College Name | REC Banda| <b>  
 <b> Email Id |Shuklapriyanshi307@gmail.com |    <b>  
 <b> Branch |Information Technology |<b> 
 
