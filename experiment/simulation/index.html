@@ -1,13 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial VFD Simulation</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <header class="topbar">
+        <div>
+            <h1>Industrial VFD Panel</h1>
+            <p>Variable Frequency Drive Simulation</p>
+        </div>
+        <div class="header-status">
+            <span class="status-dot"></span>
+            Simulation Mode
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>VFD Control Panel</h2>
+                <span class="badge" id="statusBadge">STOPPED</span>
+            </div>
+
+            <div class="display">
+                <p class="display-label">OUTPUT FREQUENCY</p>
+                <div class="frequency-value">
+                    <span id="frequency">0.0</span>
+                    <span class="unit">Hz</span>
+                </div>
+                <p id="driveStatus">Drive is stopped</p>
+            </div>
+
+            <div class="control-group">
+                <div class="label-row">
+                    <label for="speed">Set Frequency</label>
+                    <strong><span id="setFrequency">25</span> Hz</strong>
+                </div>
+                <input
+                    type="range"
+                    id="speed"
+                    min="0"
+                    max="50"
+                    value="25"
+                    step="0.5"
+                >
+                <div class="range-labels">
+                    <span>0 Hz</span>
+                    <span>25 Hz</span>
+                    <span>50 Hz</span>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button id="startBtn" class="btn btn-start" type="button">
+                    START
+                </button>
+                <button id="stopBtn" class="btn btn-stop" type="button">
+                    STOP
+                </button>
+                <button id="resetBtn" class="btn btn-reset" type="button">
+                    RESET
+                </button>
+            </div>
+
+            <div class="metrics">
+                <div class="metric-card">
+                    <span>Output Voltage</span>
+                    <strong><span id="voltage">0</span> V</strong>
+                </div>
+                <div class="metric-card">
+                    <span>Motor Speed</span>
+                    <strong><span id="rpm">0</span> RPM</strong>
+                </div>
+                <div class="metric-card">
+                    <span>DC Bus</span>
+                    <strong><span id="dcBus">0</span> V</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>Motor Status</h2>
+                <span class="small-text">Live Simulation</span>
+            </div>
+
+            <div class="motor-area">
+                <div class="motor" id="motor">
+                    <div class="motor-shaft"></div>
+                    <div class="motor-body">
+                        <div class="motor-rings"></div>
+                        <span>MOTOR</span>
+                    </div>
+                </div>
+                <p id="motorStatus">Motor: OFF</p>
+            </div>
+
+            <div class="progress-section">
+                <div class="label-row">
+                    <span>Motor Speed Level</span>
+                    <strong id="speedPercent">0%</strong>
+                </div>
+                <div class="progress-track">
+                    <div id="speedBar" class="progress-bar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>Drive Parameters</h2>
+            </div>
+
+            <div class="parameter-list">
+                <div class="parameter-row">
+                    <span>Parameter P01</span>
+                    <span>Minimum Frequency</span>
+                    <strong>0 Hz</strong>
+                </div>
+                <div class="parameter-row">
+                    <span>Parameter P02</span>
+                    <span>Maximum Frequency</span>
+                    <strong>50 Hz</strong>
+                </div>
+                <div class="parameter-row">
+                    <span>Parameter P03</span>
+                    <span>Rated Voltage</span>
+                    <strong>400 V</strong>
+                </div>
+                <div class="parameter-row">
+                    <span>Parameter P04</span>
+                    <span>Rated Speed</span>
+                    <strong>1500 RPM</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>Troubleshooting</h2>
+            </div>
+
+            <label for="faultSelect">Select a fault to inspect</label>
+            <select id="faultSelect">
+                <option value="none">No Fault</option>
+                <option value="overload">Motor Overload</option>
+                <option value="overvoltage">DC Bus Overvoltage</option>
+                <option value="undervoltage">DC Bus Undervoltage</option>
+                <option value="overheat">Drive Overheating</option>
+            </select>
+
+            <div id="faultMessage" class="fault-message">
+                <strong>System Normal</strong>
+                <p>No fault selected. The simulated drive is ready.</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-heading">
+                <h2>Activity Log</h2>
+            </div>
+            <ul id="activityLog" class="activity-log">
+                <li>System initialized. Drive stopped.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Industrial VFD Panel Simulation | Educational Project</p>
+        <p class="disclaimer">
+            This is a software simulation, not a real electrical control panel.
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
